@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #487eb0;
+}
+
+.signup-form {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background: url(../img/1.jpg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.signup-form h1 {
+    margin-top: 100px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    color: #fff;
+}
+
+.signup-form input {
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+    /*指定宽度和高度（最小/最大属性）确定元素边框。也就是说，对元素指定宽度和高度包括了 padding 和 border 。通过从已设定的宽度和高度分别减去边框和内边距才能得到内容的宽度和高度。*/
+    outline: none;
+    border: none;
+    font-family: "montserrat", sans-serif;
+}
+
+.txtb {
+    margin: 20px 0;
+    background: rgba(255, 255, 255, .5);
+    border-radius: 6px;
+}
+
+.signup-btn {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background: #487eb0;
+    color: #fff;
+    border-radius: 44px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.signup-btn:hover {
+    transform: scale(0.96);
+}
+
+.signup-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "montserrat", sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    transition: 0.8s;
+    display: block;
+}
+
+.signup-btn a:hover {
+    background: rgba(0, 0, 0, .3);
+}
