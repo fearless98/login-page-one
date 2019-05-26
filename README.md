@@ -8,3 +8,10 @@
 3、Login-page-two
 
 ![](https://github.com/fearless98/page-special-effects/blob/master/login-page-two.gif)
+
+4、Search-box
+
+![](https://github.com/fearless98/page-special-effects/blob/master/search.gif)
+
+5、3d-flip
+![](https://github.com/fearless98/page-special-effects/blob/master/3d-flip.gif)
